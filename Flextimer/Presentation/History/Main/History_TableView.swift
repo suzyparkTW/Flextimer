@@ -142,7 +142,8 @@ extension HistoryViewController: UITableViewDataSource {
 //  }
 //
 //  func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-//    return "총 근무 시간"
+//    
+//    return "총 근무일 수(\(RealmService.shared.userInfo.workdaysPerWeekIdxs.count)일) 기준 남은 시간: "
 //  }
   
   func tableView(
